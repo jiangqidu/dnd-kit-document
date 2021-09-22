@@ -1258,6 +1258,29 @@
   resolved "https://registry.npm.taobao.org/@ctrl/tinycolor/download/@ctrl/tinycolor-3.4.0.tgz#c3c5ae543c897caa9c2a68630bed355be5f9990f"
   integrity sha1-w8WuVDyJfKqcKmhjC+01W+X5mQ8=
 
+"@dnd-kit/accessibility@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.nlark.com/@dnd-kit/accessibility/download/@dnd-kit/accessibility-3.0.0.tgz#b56e3750414fd907b7d6972b3116aa8f96d07fde"
+  integrity sha1-tW43UEFP2Qe31pcrMRaqj5bQf94=
+  dependencies:
+    tslib "^2.0.0"
+
+"@dnd-kit/core@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.nlark.com/@dnd-kit/core/download/@dnd-kit/core-3.1.1.tgz?cache=0&sync_timestamp=1631501456463&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40dnd-kit%2Fcore%2Fdownload%2F%40dnd-kit%2Fcore-3.1.1.tgz#c5ad6665931f5a51e74226220e58ac7514f3faf0"
+  integrity sha1-xa1mZZMfWlHnQiYiDlisdRTz+vA=
+  dependencies:
+    "@dnd-kit/accessibility" "^3.0.0"
+    "@dnd-kit/utilities" "^2.0.0"
+    tslib "^2.0.0"
+
+"@dnd-kit/utilities@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.nlark.com/@dnd-kit/utilities/download/@dnd-kit/utilities-2.0.0.tgz?cache=0&sync_timestamp=1631501456467&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40dnd-kit%2Futilities%2Fdownload%2F%40dnd-kit%2Futilities-2.0.0.tgz#a8462dff65c6f606ecbe95273c7e263b14a1ab97"
+  integrity sha1-qEYt/2XG9gbsvpUnPH4mOxShq5c=
+  dependencies:
+    tslib "^2.0.0"
+
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.nlark.com/@eslint/eslintrc/download/@eslint/eslintrc-0.4.3.tgz?cache=0&sync_timestamp=1631310506855&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40eslint%2Feslintrc%2Fdownload%2F%40eslint%2Feslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"
@@ -11621,7 +11644,7 @@ tslib@^1.8.1:
   resolved "https://registry.nlark.com/tslib/download/tslib-1.14.1.tgz?cache=0&sync_timestamp=1628722556410&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
-tslib@^2.0.3:
+tslib@^2.0.0, tslib@^2.0.3:
   version "2.3.1"
   resolved "https://registry.nlark.com/tslib/download/tslib-2.3.1.tgz?cache=0&sync_timestamp=1628722556410&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
