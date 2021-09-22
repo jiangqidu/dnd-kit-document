@@ -24,9 +24,6 @@ const Index = () => {
         <Menu.Item key="12">Team 1</Menu.Item>
         <Menu.Item key="13">Team 2</Menu.Item>
       </SubMenu>
-      <Menu.Item key="14" >
-        Files
-      </Menu.Item>
     </Menu>
     )
 }
