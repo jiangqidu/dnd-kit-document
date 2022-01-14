@@ -14,7 +14,9 @@ import OneMinimumDistanceX from './layout/demo/one/minimumDistanceX';
 import OneMinimumDistanceY from './layout/demo/one/minimumDistanceY';
 import OneHorizontalAxis from './layout/demo/one/horizontalAxis';
 import OneVerticalAxis from './layout/demo/one/verticalAxis';
-import OneRestrictToWindowEdges from './layout/demo/one/restrictToWindowEdges';
+
+import TwoBasic from './layout/demo/two/basicSetup';
+import TwoDisableDropAnimation from './layout/demo/two/disableDropAnimation';
 
 const { Header, Sider, Content } = Layout;
 
@@ -22,7 +24,7 @@ function App() {
   return (
     <Layout>
       <Header>
-        <h1>dnd kit小册</h1>
+        <h1>dnd kit示例整理</h1>
       </Header>
       <Layout>
         <Sider theme="light" width={220}><Left /></Sider>
@@ -38,7 +40,9 @@ function App() {
           <Route path="/one-minimumDistanceY" component={OneMinimumDistanceY} />
           <Route path="/one-horizontalAxis" component={OneHorizontalAxis} />
           <Route path="/one-verticalAxis" component={OneVerticalAxis} />
-          <Route path="/one-restrictToWindowEdges" component={OneRestrictToWindowEdges} />
+
+          <Route path="/two-basic" component={TwoBasic} />
+          <Route path="/two-disableDropAnimation" component={TwoDisableDropAnimation} />
 
         </Content>
       </Layout>

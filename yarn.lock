@@ -1274,10 +1274,25 @@
     "@dnd-kit/utilities" "^2.0.0"
     tslib "^2.0.0"
 
+"@dnd-kit/modifiers@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@dnd-kit/modifiers/-/modifiers-5.0.0.tgz#c2ba0bfdb6bed994affcfc4c86834795b7a7f029"
+  integrity sha512-ZVOfa5dKmvAPBxjjnI4QTm8fHV4/gMdS6k0zY5Z8p/p9HkL/3QEHn2fYgqM2zVDpxf5maqrZ4MvqXILSPNQPMQ==
+  dependencies:
+    "@dnd-kit/utilities" "^3.1.0"
+    tslib "^2.0.0"
+
 "@dnd-kit/utilities@^2.0.0":
   version "2.0.0"
   resolved "https://registry.nlark.com/@dnd-kit/utilities/download/@dnd-kit/utilities-2.0.0.tgz?cache=0&sync_timestamp=1631501456467&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40dnd-kit%2Futilities%2Fdownload%2F%40dnd-kit%2Futilities-2.0.0.tgz#a8462dff65c6f606ecbe95273c7e263b14a1ab97"
   integrity sha1-qEYt/2XG9gbsvpUnPH4mOxShq5c=
+  dependencies:
+    tslib "^2.0.0"
+
+"@dnd-kit/utilities@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@dnd-kit/utilities/-/utilities-3.1.0.tgz#330ef24303da05f85ff20bb8f74b385c96caee58"
+  integrity sha512-2JBdIgjJ7xjMRpKagdMuYKWJdDoVVw9Wc6lfMrLjrq8t4QlMEjtsab5JVUlzWvHgANn7w3Y3VhalFfbp4dQrKg==
   dependencies:
     tslib "^2.0.0"
 

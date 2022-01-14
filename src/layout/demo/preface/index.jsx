@@ -1,15 +1,14 @@
 import React from 'react'
-import {Button} from 'antd';
 
 const Index = () => {
   return (
     <div>
-      <p>看前须知</p>
       <ul>
-        <li>小册内容主要是对<Button type="link" target="_blank" href="https://dndkit.com/">dnd kit</Button>文档的补充说明</li>
-        <li>技术栈从简，主要是为了说明dnd kit相关hooks用法</li>
-        <li>实现官网上的示例，并对用法的进行补充说明（反正比官网上的详细）</li>
-        <li>水平有限，大神勿喷，欢迎提问和讨论，有问题可以提lssues，或者留言板留言</li>
+        <li><a href="https://5fc05e08a4a65d0021ae0bf2-guhzhzinsg.chromatic.com/?path=/story/core-draggable-hooks-usedraggable--basic-setup" target="_blank" rel='noreferrer'>官网示例传送门</a></li>
+        <li><a href="https://github.com/clauderic/dnd-kit" target="_blank" rel='noreferrer'>源码传送门</a></li>
+        <li>从【单节点叠加拖拽】开始,大部分的效果和【单节点拖拽】是一样的，如延迟拖拽，手柄拖拽，XY轴拖拽设置等，因此不重复演示</li>
+        <li>源码封装的很好，很多模块都拆分出来了，但是为了方便大家理解dnd kit的用法，这里没有进行复用，而且简化了很多东西</li>
+        <li>技术栈从简，但官方提供的示例基本都涵盖到了，应付日常开发业务问题不大</li>
       </ul>
     </div>
   )

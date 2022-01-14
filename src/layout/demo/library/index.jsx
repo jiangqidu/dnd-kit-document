@@ -25,6 +25,7 @@ const Index = () => {
       说明如下，具体的属性和方法会结合后面的示例介绍：
 
       DndContext:将拖拽元素包裹起来
+      DragOverlay：拖拽时在原位置生成一个相同元素，实现叠加的效果
       useDraggable：传入一个id,返回可用于拖拽的相关设置
       MouseSensor:鼠标传感器，可设置拖拽条件，如按住后XXX秒触发拖拽，在X轴/Y轴上移动XXX距离后触发拖拽等条件,
       TouchSensor:触摸传感器，同上，
