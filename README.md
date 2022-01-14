@@ -1,3 +1,3 @@
 小册还在完善当中，下面是预览地址
 
-http://101.34.26.206/dndKit/build/
+https://jiangqidu.com/dnd-kit/
