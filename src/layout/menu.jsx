@@ -23,10 +23,10 @@ const Index = () => {
         <Menu.Item key="11"><Link to="/dnd-kit/two-basic">基础</Link></Menu.Item>
         <Menu.Item key="12"><Link to="/dnd-kit/two-disableDropAnimation">取消动画</Link></Menu.Item>
       </SubMenu>
-      {/* <SubMenu key="sub3"  title="拖拽放置">
+      <SubMenu key="sub3"  title="拖拽放置">
         <Menu.Item key="13"><Link to="/dnd-kit/three-basic">单节点放置</Link></Menu.Item>
-        <Menu.Item key="14"><Link to="/dnd-kit/three-multipleDroppables">多节点放置</Link></Menu.Item>
-      </SubMenu> */}
+        {/* <Menu.Item key="14"><Link to="/dnd-kit/three-multipleDroppables">多节点放置</Link></Menu.Item> */}
+      </SubMenu>
     </Menu>
     )
 }
