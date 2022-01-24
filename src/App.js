@@ -19,6 +19,8 @@ import TwoBasic from './layout/core/two/basicSetup';
 import TwoDisableDropAnimation from './layout/core/two/disableDropAnimation';
 
 import ThreeBasic from './layout/core/three/basicSetup';
+import ThreeMultiple from './layout/core/three/multipleDroppables';
+import CollisionDetection from './layout/core/three/collisionDetection';
 
 const { Header, Sider, Content } = Layout;
 
@@ -52,6 +54,8 @@ function App() {
           <Route path="/dnd-kit/two-disableDropAnimation" component={TwoDisableDropAnimation} />
 
           <Route path="/dnd-kit/three-basic" component={ThreeBasic} />
+          <Route path="/dnd-kit/three-multiple-droppables" component={ThreeMultiple} />
+          <Route path="/dnd-kit/collision-detection" component={CollisionDetection} />
 
         </Content>
       </Layout>
