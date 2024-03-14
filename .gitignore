@@ -1,4 +1,5 @@
 node_modules
+dnd-kit-document
 /dist
 .dumi/tmp
 .dumi/tmp-test

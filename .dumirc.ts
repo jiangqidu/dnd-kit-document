@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  outputPath: 'docs-dist',
+  outputPath: 'dnd-kit-document',
   themeConfig: {
     logo: '/logo.png',
     nav: [
