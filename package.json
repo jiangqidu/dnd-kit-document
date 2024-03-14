@@ -1,59 +1,80 @@
 {
-  "name": "dnd-kit",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": ".",
-  "dependencies": {
-    "@dnd-kit/core": "^3.1.1",
-    "@dnd-kit/modifiers": "^5.0.0",
-    "@dnd-kit/sortable": "^6.0.0",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "antd": "^4.16.13",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-markdown": "^7.0.1",
-    "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
-  },
+  "name": "dnd-kit-document",
+  "version": "1.0.0",
+  "description": "dnd-kit中文教程示例",
+  "license": "MIT",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "father build",
+    "build:watch": "father dev",
+    "dev": "dumi dev",
+    "docs:build": "dumi build",
+    "doctor": "father doctor",
+    "lint": "npm run lint:es && npm run lint:css",
+    "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
+    "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
+    "prepare": "husky install && dumi setup",
+    "prepublishOnly": "father doctor && npm run build",
+    "start": "npm run dev"
   },
-  "eslintConfig": {
+  "commitlint": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "@commitlint/config-conventional"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+    "*.{css,less}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --parser=typescript --write"
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@umijs/lint": "^4.0.0",
+    "dumi": "^2.2.13",
+    "eslint": "^8.23.0",
+    "father": "^4.1.0",
     "husky": "^8.0.1",
-    "lint-staged": "^12.4.1"
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^3.0.0",
+    "prettier-plugin-packagejson": "^2.2.18",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "stylelint": "^14.9.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
   },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint src"
-    ]
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "2524741048@qq.com"
+  ],
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/modifiers": "^7.0.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.2"
   }
 }
