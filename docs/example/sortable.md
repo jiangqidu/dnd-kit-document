@@ -1,16 +1,16 @@
 ---
 group: 目录
 toc: content
-order: 2
+order: 3
 ---
 
-# use-droppable
+# sortable
 
-<a href="https://master--5fc05e08a4a65d0021ae0bf2.chromatic.com/?path=/story/core-droppable-usedroppable--basic-setup&globals=backgrounds.grid:false" target="_blank">官网传送门</a>
+<a href="https://master--5fc05e08a4a65d0021ae0bf2.chromatic.com/?path=/story/presets-sortable-vertical--basic-setup" target="_blank">官网传送门</a>
 
 ### Basic Setup
 
-`判断拖拽节点是否进入容器`
+`基础的列表拖拽`
 
 > 代码思路
 

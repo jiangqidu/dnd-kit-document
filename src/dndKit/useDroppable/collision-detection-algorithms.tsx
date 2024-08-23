@@ -18,7 +18,7 @@ const divStyle = {
   width: '100px',
   height: '100px',
   display: 'inline-block',
-  marginTop: '20px',
+  marginTop: '40px',
   marginLeft: '50px',
   overflow: 'hidden',
   border: '2px solid #666',

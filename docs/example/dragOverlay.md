@@ -18,7 +18,7 @@ order: 1
 2. 要拖拽的元素放入**DragOverlay**
 3. 监听 onDragStart 、 onDragEnd 、onDragCancel 三个事件，获取拖拽状态
 
-<code src='../../src/dragOverlay/basic-setup.tsx'></code>
+<code src='../../src/dndKit/dragOverlay/basic-setup.tsx'></code>
 
 ### Disable Drop Animation
 
@@ -28,4 +28,4 @@ order: 1
 
 1. 把**dropAnimation**设置为**null**
 
-<code src='../../src/dragOverlay/disable-drop-animation.tsx'></code>
+<code src='../../src/dndKit/dragOverlay/disable-drop-animation.tsx'></code>

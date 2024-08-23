@@ -3,7 +3,7 @@ hero:
   title: dnd kit
   description: dnd-kit中文教程
   actions:
-    - text: 立刻上手
+    - text: 立即上手
       link: /example/use-draggable
     - text: GitHub
       link: https://github.com/jiangqidu/dnd-kit-document

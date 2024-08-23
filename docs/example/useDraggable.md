@@ -24,7 +24,7 @@ mobile: false
 5. 将获取的 **x**，**y** 坐标值赋值给 **DraggableItem**，改变其 **style**
 6. **onDragEnd**、**onDragCancel**触发时，重新设置 **DraggableItem** 的 **transform**
 
-<code src='../../src/useDraggable/basic-setup.tsx'></code>
+<code src='../../src/dndKit/useDraggable/basic-setup.tsx'></code>
 
 ### Drag Handle
 
@@ -34,7 +34,7 @@ mobile: false
 
 1. 将 **listeners** 放到需要触发拖拽效果的 icon 上
 
-<code src='../../src/useDraggable/drag-handle.tsx'></code>
+<code src='../../src/dndKit/useDraggable/drag-handle.tsx'></code>
 
 ### Press delay
 
@@ -46,7 +46,7 @@ mobile: false
 2. 设置**activationConstraint**的**delay**和**tolerance**
 3. 把 1 和 2 传入 **useSensor()** 中作为参数，然后作为 **DndContext** 中的 **sensors** 的值
 
-<code src='../../src/useDraggable/press-delay.tsx'></code>
+<code src='../../src/dndKit/useDraggable/press-delay.tsx'></code>
 
 ### Minimum Distance
 
@@ -56,7 +56,7 @@ mobile: false
 
 1. 设置**activationConstraint**的中的**distance**
 
-<code src='../../src/useDraggable/minimum-distance.tsx'></code>
+<code src='../../src/dndKit/useDraggable/minimum-distance.tsx'></code>
 
 ### Minimum Distance – X Axis
 
@@ -66,7 +66,7 @@ mobile: false
 
 1. 只设置**distance**中的**x**值
 
-<code src='../../src/useDraggable/minimum-distance-X-axis.tsx'></code>
+<code src='../../src/dndKit/useDraggable/minimum-distance-X-axis.tsx'></code>
 
 ### Minimum Distance – Y Axis
 
@@ -76,7 +76,7 @@ mobile: false
 
 1. 只设置**distance**中的**y**值
 
-<code src='../../src/useDraggable/minimum-distance-Y-axis.tsx'></code>
+<code src='../../src/dndKit/useDraggable/minimum-distance-Y-axis.tsx'></code>
 
 ### Minimum Distance – X&Y Axis
 
@@ -86,7 +86,7 @@ mobile: false
 
 1. 同时设置**distance**中的**x**和**y**值
 
-<code src='../../src/useDraggable/minimum-distance-X_Y-axis.tsx'></code>
+<code src='../../src/dndKit/useDraggable/minimum-distance-X_Y-axis.tsx'></code>
 
 ### Horizontal Axis
 
@@ -97,7 +97,7 @@ mobile: false
 1. 从 **@dnd-kit/modifiers** 引入**restrictToHorizontalAxis**
 2. 设置 **DndContext** 中的 **modifiers**
 
-<code src='../../src/useDraggable/horizontal-axis.tsx'></code>
+<code src='../../src/dndKit/useDraggable/horizontal-axis.tsx'></code>
 
 ### Vertical Axis
 
@@ -108,7 +108,7 @@ mobile: false
 1. 从 **@dnd-kit/modifiers** 引入**restrictToVerticalAxis**
 2. 设置 **DndContext** 中的 **modifiers**
 
-<code src='../../src/useDraggable/vertical-axis.tsx'></code>
+<code src='../../src/dndKit/useDraggable/vertical-axis.tsx'></code>
 
 ### Restrict To Window Edges
 
@@ -119,4 +119,4 @@ mobile: false
 1. 从 **@dnd-kit/modifiers** 引入**restrictToWindowEdges**
 2. 设置 **DndContext** 中的 **modifiers**
 
-<code src='../../src/useDraggable/restrict-to-window-edges.tsx'></code>
+<code src='../../src/dndKit/useDraggable/restrict-to-window-edges.tsx'></code>
