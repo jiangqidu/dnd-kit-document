@@ -42,7 +42,7 @@ mobile: false
 
 > 代码思路
 
-1. 从**@dnd-kit/core** 中引入[传感器](https://docs.dndkit.com/api-documentation/sensors)
+1. 从 **@dnd-kit/core** 中引入[传感器](https://docs.dndkit.com/api-documentation/sensors)
 2. 设置**activationConstraint**的**delay**和**tolerance**
 3. 把 1 和 2 传入 **useSensor()** 中作为参数，然后作为 **DndContext** 中的 **sensors** 的值
 
