@@ -23,8 +23,6 @@ const SortableItem = (props: SortableItemProps) => {
   } = useSortable({ id: props.id });
 
   const style = {
-    width: '320px',
-    marginBottom: '16px',
     border: '1px solid rgb(207 207 207)',
     padding: '16px 8px',
     opacity: isDragging ? 0.5 : 1,
